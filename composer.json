@@ -1,20 +1,22 @@
 {
   "name": "elsangedy/laravel-firebase",
   "description": "Laravel ServiceProvider for eelkevdbos/firebase-php Library",
-  "require": {
-    "eelkevdbos/firebase-php": "dev-master"
-  },
+  "type": "library",
+  "version": "0.1",
   "license": "MIT",
+  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Munir Ahmed Elsangedy",
       "email": "elsangedy@gmail.com"
     }
   ],
+  "require": {
+    "eelkevdbos/firebase-php": "dev-master"
+  },
   "autoload": {
     "psr-4": {
       "LaravelFirebase\\": "src/"
     }
-  },
-  "minimum-stability": "dev"
+  }
 }
